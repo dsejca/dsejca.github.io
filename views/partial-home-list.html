@@ -1,0 +1,25 @@
+<ul>
+    <li ng-repeat="dog in dogs">{{ dog }}</li>
+</ul>
+<!--div ng-app="firstapp"> </div-->
+<br/>
+
+	<div class="row">
+		<div ng-controller="FirstCtrl">
+			<form>
+			    <fieldset>			        			            
+					<input name="paramtext" id="param" type="text" ng-model="myYear" ng-change="GetYearsOld(myYear)"><br>
+			 
+					<input type="radio" ng-model="mySex" name="rbutton" value="masculino" ng-change="">Masculino
+					<input type="radio" ng-model="mySex" name="rbutton" value="femenino" ng-change="">Femenino<br>
+					
+					<!--span id="resultado" ng-class="{'mayordeedad':  myYear>= 1996, 'negrita': fontsfeatures.inicial == 'bold','cursiva': fontsfeatures.inicial == 'italic','subrayado': fontsfeatures.inicial == 'underline' } " 
+					 class=" {{ clase }} ">Resultado - {{ fontsfeatures.inicial }}
+					 </span-->
+					 <br>
+					<span  ng-model="result1">tu edad es: {{result1}}</span>			        
+			    </fieldset>
+			</form>
+			
+		</div>
+	</div>

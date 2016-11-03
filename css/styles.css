@@ -1,0 +1,18 @@
+.mujer{
+	color: red;
+}
+.hombre{
+	color: blue;	
+}
+.mayordeedad{
+	background-color: yellow;		
+}
+.negrita{
+	font-weight: bold;
+}
+.cursiva{
+	font-style: italic;
+}
+.subrayado{
+	text-decoration: underline;
+}

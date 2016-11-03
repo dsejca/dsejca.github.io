@@ -1,0 +1,25 @@
+<div class="jumbotron text-center">
+    <h1>Using Factory</h1>
+    <p>Fill Data<span class="text-danger">preserve</span> factory</p>
+   
+</div>
+<div ng-controller="CtrlFactoria">
+	<form>
+	    <fieldset>
+	       
+	        	<!--label class="control-label" for="nombre">Nombre:</label><br>
+	            <input id="nombre" type="text" ng-model="data.nombre" ><br>
+	            
+	            <label class="control-label" for="direc">Dirección:</label><br>
+	            <input id="direc" type="text" ng-model="data.direccion" ><br>
+
+	            <label class="control-label" for="telefono">Teléfono:</label><br>
+	            <input id="telefono" type="text" ng-model="data.telefono" ><br-->
+
+	        <label class="control-label" for="param">¿En qué año naciste?</label><br>
+	        <input name="paramtext" id="param" type="text" ng-model="data.edad" ><br>
+	        <span id="nacimiento">Hemos nacido en: {{ data.edad }}</span><br>
+	        
+	    </fieldset>
+	</form>
+</div>
